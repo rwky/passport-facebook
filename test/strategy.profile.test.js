@@ -2,7 +2,7 @@
 /* jshint expr: true */
 
 var FacebookStrategy = require('../lib/strategy')
-  , graphApiVersion = FacebookStrategy.prototype.defaultGraphApiVersion;
+  , graphApiVersion = FacebookStrategy.defaultGraphApiVersion;
 
 
 describe('Strategy#userProfile', function() {

@@ -3,7 +3,7 @@
 
 var chai = require('chai')
   , FacebookStrategy = require('../lib/strategy')
-  , graphApiVersion = FacebookStrategy.prototype.defaultGraphApiVersion;
+  , graphApiVersion = FacebookStrategy.defaultGraphApiVersion;
 
 describe('Strategy', function() {
 
