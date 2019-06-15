@@ -1,6 +1,6 @@
 {
   "name": "passport-facebook-rwky",
-  "version": "2.3.1",
+  "version": "3.0.0",
   "description": "Facebook authentication strategy for Passport.",
   "keywords": [
     "passport",
@@ -48,6 +48,6 @@
     "node": ">= 4.0.0"
   },
   "scripts": {
-    "test": "node_modules/.bin/mocha --require test/bootstrap/node test/*.test.js"
+      "preinstall": "echo 'This package is deprecated use @passport-next/passport-facebook instead'; exit 1"
   }
 }
